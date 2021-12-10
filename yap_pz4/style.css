@@ -1,0 +1,262 @@
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.circle {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+@keyframes anim1 {
+    0% {
+        transform: translateX(20%) translateY(1000%);
+    }
+    40%{
+        background-color: purple;
+    }
+    60%{
+        background-color: rgb(52, 198, 255);
+    }
+    80%{
+        background-color: rgb(4, 4, 248)
+    }
+    100% {
+        transform: translateX(20%) translateY(-250%);
+    }
+}
+
+.c1 {
+    background-color: purple;
+    box-shadow: 0 0 70px 20px purple;
+    transform: translateY(-300%);
+    animation: anim1 5s 2s linear infinite;
+}
+
+@keyframes anim2 {
+    0% {
+        transform: translateX(30%) translateY(1000%);
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: orange;
+    }
+    80%{
+        background-color: red;
+    }
+    100% {
+        transform: translateX(30%) translateY(-250%);
+    }
+}
+
+.c2 {
+    background-color: yellow;
+    box-shadow: 0 0 70px 20px yellow;
+    transform: translateY(-300%);
+    animation: anim2 5s 6s linear infinite;
+}
+
+@keyframes anim3 {
+    0% {
+        transform: translateX(35%) translateY(1000%);
+    }
+    40%{
+        background-color: aqua;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: rgb(157, 255, 0)
+    }
+    100% {
+        transform: translateX(35%) translateY(-250%);
+    }
+}
+
+.c3 {
+    background-color: aqua;
+    box-shadow: 0 0 70px 20px aqua;
+    transform: translateY(-300%);
+    animation: anim3 10s 1s linear infinite;
+}
+
+@keyframes anim4 {
+    0% {
+        transform: translateX(40%) translateY(1000%);
+    }
+    40%{
+        background-color: purple;
+    }
+    60%{
+        background-color: rgb(52, 198, 255);
+    }
+    80%{
+        background-color: rgb(4, 4, 248)
+    }
+    100% {
+        transform: translateX(40%) translateY(-250%);
+    }
+}
+
+.c4 {
+    background-color: purple;
+    box-shadow: 0 0 70px 20px purple;
+    transform: translateY(-300%);
+    animation: anim4 10s 4s linear infinite;
+}
+
+@keyframes anim5 {
+    0% {
+        transform: translateX(45%) translateY(1000%);
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: orange;
+    }
+    80%{
+        background-color: red;
+    }
+    100% {
+        transform: translateX(45%) translateY(-250%);
+    }
+}
+
+.c5 {
+    background-color: yellow;
+    box-shadow: 0 0 70px 20px yellow;
+    transform: translateY(-300%);
+    animation: anim5 10s 0.5s linear infinite;
+}
+
+@keyframes anim6 {
+    0% {
+        transform: translateX(50%) translateY(1000%);
+    }
+    40%{
+        background-color: aqua;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: rgb(157, 255, 0)
+    }
+    100% {
+        transform: translateX(50%) translateY(-250%);
+    }
+}
+
+.c6 {
+    background-color: aqua;
+    box-shadow: 0 0 70px 20px aqua;
+    transform: translateY(-300%);
+    animation: anim6 10s 5.3s linear infinite;
+}
+
+@keyframes anim7 {
+    0% {
+        transform: translateX(55%) translateY(1000%);
+    }
+    40%{
+        background-color: purple;
+    }
+    60%{
+        background-color: rgb(52, 198, 255);
+    }
+    80%{
+        background-color: rgb(4, 4, 248)
+    }
+    100% {
+        transform: translateX(55%) translateY(-250%);
+    }
+}
+
+.c7 {
+    background-color: purple;
+    box-shadow: 0 0 70px 20px purple;
+    transform: translateY(-300%);
+    animation: anim7 10s 4.4s linear infinite;
+}
+
+@keyframes anim8 {
+    0% {
+        transform: translateX(43%) translateY(1000%);
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: orange;
+    }
+    80%{
+        background-color: red;
+    }
+    100% {
+        transform: translateX(43%) translateY(-250%);
+    }
+}
+
+.c8 {
+    background-color: yellow;
+    box-shadow: 0 0 70px 20px yellow;
+    transform: translateY(-300%);
+    animation: anim8 10s 8.2s linear infinite;
+}
+
+@keyframes anim9 {
+    0% {
+        transform: translateX(5%) translateY(1000%);
+    }
+    40%{
+        background-color: aqua;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: rgb(157, 255, 0)
+    }
+    100% {
+        transform: translateX(5%) translateY(-250%);
+    }
+}
+
+.c9 {
+    background-color: aqua;
+    box-shadow: 0 0 70px 20px aqua;
+    transform: translateY(-300%);
+    animation: anim9 10s 9s linear infinite;
+}
+
+@keyframes anim10 {
+    0% {
+        transform: translateX(53%) translateY(1000%);
+    }
+    40%{
+        background-color: purple;
+    }
+    60%{
+        background-color: rgb(52, 198, 255);
+    }
+    80%{
+        background-color: rgb(4, 4, 248)
+    }
+    100% {
+        transform: translateX(53%) translateY(-250%);
+    }
+}
+
+.c10 {
+    background-color: purple;
+    box-shadow: 0 0 70px 20px purple;
+    transform: translateY(-300%);
+    animation: anim10 10s 0s linear infinite;
+}
+
